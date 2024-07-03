@@ -18,11 +18,12 @@ This project analyzes Stack Overflow data to understand trends in programming la
 
 2. Place your data files (Questions.csv, Answers.csv, Tags.csv, Users.csv) in the `data/` directory. Data used was extracted from [Kaggle](https://www.kaggle.com/datasets/stackoverflow/stacksample/).
 
-3. (Optional) Run the test file to check if everything is running correctly before doing the analysis on the whole dataset. This will generate a new `data-test/` folder with a sample of the original data:
+3. Make sure you have an `output/` folder created.
+
+4. (Optional) Run the test file to check if everything is running correctly before doing the analysis on the whole dataset. This will generate a new `data-test/` folder with a sample of the original data:
     - `spark-submit test.py`
     
-
-4. Run the analysis:
+5. Run the main analysis:
     - `spark-submit main.py`
 
 ## Output
