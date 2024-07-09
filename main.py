@@ -37,14 +37,6 @@ def main():
     # Word clouds
     generate_word_clouds(questions_df, tags_df)
 
-    # Topic modeling
-    # topic_results, vocab = perform_topic_modeling(questions_df)
-    # plot_topic_distribution(topic_results, vocab)
-
-    # Language co-occurrence
-    # cooccurrence_results = analyze_language_cooccurrence(questions_df)
-    # plot_language_cooccurrence_network(cooccurrence_results)
-
     spark.stop()
 
 if __name__ == "__main__":
